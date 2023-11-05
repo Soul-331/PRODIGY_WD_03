@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            background-color: #3498db;
+            color: #fff;
+            border-radius: 5px;
+            margin: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        h1 {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #333;
+            border-radius: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Tic Tac Toe</h1>
+    </div>
+    <div class="container">
+        <button class="button"><a href="./tictactoeAI.html" target="_self">Play with AI</a></button>
+        <button class="button"><a href="./tictactoeHuman.html" target="_self">Play with Players</a></button>
+    </div>
+</body>
+
+</html>
